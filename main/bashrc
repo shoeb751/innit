@@ -1,0 +1,19 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+alias ls='ls --color=auto'
+PS1='[\u@\h \W]\$ '
+
+### Initiate innit
+innit_loc=$(readlink -f ~/.bashrc | awk -F'/' 'BEGIN{OFS=FS}{NF=NF-2; print $0}')
+
+# making sure other scripts can use the base dir of autoamtion
+[[ ! -f ~/.abase ]] &&  echo ${innit_loc} > ~/.abase
+
+for i in $(ls ${innit_loc}/bash/*.sh); do
+    source $i
+done

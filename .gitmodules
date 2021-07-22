@@ -1,0 +1,6 @@
+[submodule "bash/liquidprompt"]
+	path = bash/liquidprompt
+	url = git@github.com:shoeb751/liquidprompt.git
+[submodule "tmux/.tmux"]
+	path = tmux/.tmux
+	url = git@github.com:shoeb751/.tmux.git
