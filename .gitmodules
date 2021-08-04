@@ -4,3 +4,6 @@
 [submodule "tmux/.tmux"]
 	path = tmux/.tmux
 	url = git@github.com:shoeb751/.tmux.git
+[submodule "tsundere"]
+	path = tsundere
+	url = git@github.com:shoeb751/tsundere.git
