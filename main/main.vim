@@ -1,3 +1,5 @@
+source $VIMRUNTIME/defaults.vim
+
 " i never want vim messing with me pasting stuff, ever
 set paste
 
