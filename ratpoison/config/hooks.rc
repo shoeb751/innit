@@ -1,0 +1,2 @@
+addhook switchframe exec rp_hook_frame_switch.sh
+addhook switchgroup exec rp_hook_group_switch.sh
