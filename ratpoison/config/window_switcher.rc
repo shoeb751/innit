@@ -1,4 +1,7 @@
 #Create our necessary groups
+# For now restricting to these two in addition to the default.
+# Might need to create a system to dynamically add new groups
+# And associated bindings to move windows to them
 gnewbg BT
 gnewbg BC 
 
@@ -13,19 +16,13 @@ definekey pot 0 only
 # workspaces
 definekey pot Right gnext
 definekey pot Left gprev
-definekey pot 0 only
 definekey pot 1 gselect 1
 definekey pot 2 gselect 2
-definekey pot 3 gselect 3
-definekey pot 4 gselect 4
-definekey pot 5 gselect 5
-definekey pot 6 gselect 6
 definekey pot C-1 gmove 1
 definekey pot C-2 gmove 2
-definekey pot C-3 gmove 3
-definekey pot C-4 gmove 4
-definekey pot C-5 gmove 5
-definekey pot C-6 gmove 6
+
+
+#Screenshot with edit functionality
 definekey pot v exec sleep 1 && pdate=$(date +%s); maim -s ~/Pictures/${pdate}.png ; swappy -f ~/Pictures/${pdate}.png -o ~/Pictures/${pdate}-e.png
 
 # Attach our keymap to the top level key map via C-x.
