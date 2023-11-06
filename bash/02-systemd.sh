@@ -23,4 +23,31 @@ function status {
 function restart {
     sudo systemctl restart $1
 }
+function ustart {
+    systemctl --user start $1
+}
+function ustop {
+    systemctl --user stop $1
+}
+function ureload {
+    systemctl --user reload $1
+}
+function uenable {
+    systemctl --user enable $1
+}
+function udisable {
+    systemctl --user disable $1
+}
+function ustatus {
+    systemctl --user status $1
+}
+function urestart {
+    systemctl --user restart $1
+}
+function logs {
+    journalctl -u $1
+}
+function ulogs {
+    journalctl --user -u $1
+}
 # Systemctl related hacks END

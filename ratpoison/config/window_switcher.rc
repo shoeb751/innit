@@ -16,10 +16,14 @@ definekey pot 0 only
 # workspaces
 definekey pot Right gnext
 definekey pot Left gprev
+definekey pot 0 gselect 0
 definekey pot 1 gselect 1
 definekey pot 2 gselect 2
+definekey pot 3 gselect 3
 definekey pot C-1 gmove 1
 definekey pot C-2 gmove 2
+definekey pot C-3 gmove 3
+#definekey pot C-0 gmove 0
 
 
 #Screenshot with edit functionality

@@ -1,0 +1,9 @@
+#! /usr/bin/env bash
+
+
+# What I want is that ssh helper should be able to distinguish between command line options
+# which it should pass as is to the SSH command line.
+# to do this, we will have to iterate over the args table and stop till we find an appropriate
+# hostname
+>&2 echo $(t util ssh $1) ${@:2}
+$(t util ssh $1) ${@:2}

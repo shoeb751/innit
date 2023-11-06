@@ -4,6 +4,7 @@
 # Based on http://linuxpixies.blogspot.jp/2011/06/tmux-copy-mode-and-how-to-control.html
 
 # a script to ssh multiple servers over multiple tmux panes
+# needs to be made better
 pssh() {
     [ -z "$1" ] && exit 1
     HOSTS=$1

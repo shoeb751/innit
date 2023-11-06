@@ -1,4 +1,4 @@
-### INNIT
+# INNIT
 
 This is a work in progress with a lot of features yet to be added
 USE AT OWN RISK
@@ -18,33 +18,33 @@ The following are the tools that I will like to get done by today:
 7) Git repo policies
 8) Workshop analogy
 
-
 Thinking out the directory structure out loud:
 
 ESTATE
 HOME
- - LIVINGROOM
- - BEDROOM
-   - DESK
-     - DRAWER
-   - CUPBOARD
-     - DRAWER
- - OFFICE
-   - DESK
-     - DRAWER
- - LIBRARY (To store books)
-   - RACK1
-   - RACK2
-   - RACKN 
- - MEDIAROOM
-   - CUPBOARD (Entertainment stuff)
+
+- LIVINGROOM
+- BEDROOM
+  - DESK
+    - DRAWER
+  - CUPBOARD
+    - DRAWER
+- OFFICE
+  - DESK
+    - DRAWER
+- LIBRARY (To store books)
+  - RACK1
+  - RACK2
+  - RACKN
+- MEDIAROOM
+  - CUPBOARD (Entertainment stuff)
 WORKSHOP (Ongoing projects)
- - STORAGE (Limited to 4 projects)
- - WORKBENCH (1 project)
- - TOOLBOX (Tools that are in the process of being made and tested)
+- STORAGE (Limited to 4 projects)
+- WORKBENCH (1 project)
+- TOOLBOX (Tools that are in the process of being made and tested)
 SHED (for long term storage)
- - STORAGE
- - TOOLBOX (Tools that are to be stored long term)
+- STORAGE
+- TOOLBOX (Tools that are to be stored long term)
 LAB (for experimental stuff)
- - CLEANROOM
- - STORAGE
+- CLEANROOM
+- STORAGE
